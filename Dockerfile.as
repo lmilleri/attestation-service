@@ -2,7 +2,7 @@
 # Licensed under the Apache License, Version 2.0, see LICENSE for details.
 # SPDX-License-Identifier: Apache-2.0
 
-FROM rust:latest as builder
+FROM rust:1.71 as builder
 
 WORKDIR /usr/src/attestation-service
 COPY . .
